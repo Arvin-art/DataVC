@@ -1,0 +1,3 @@
+1. Create a git repo and clone it in local
+2. Create a code.py and add code to it
+3. Git-Commit-push before applying DVC
