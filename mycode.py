@@ -7,6 +7,12 @@ data = {'Name': ['Alice', 'Bob', 'Charlie', 'David'],
         'City': ['New York', 'Los Angeles', 'Chicago', 'Houston']}
 
 df = pd.DataFrame(data)
+
+new_row = pd.DataFrame({'Name': ['Eve'],
+                      'Age': [28],
+                      'City': ['Seattle']})
+df = pd.concat([df, new_row], ignore_index=True)
+
 print("Original DataFrame:")
 print(df)
 
