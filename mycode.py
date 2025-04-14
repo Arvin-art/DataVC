@@ -13,6 +13,11 @@ new_row = pd.DataFrame({'Name': ['Eve'],
                       'City': ['Seattle']})
 df = pd.concat([df, new_row], ignore_index=True)
 
+new_row = pd.DataFrame({'Name': ['Frank'],
+                      'Age': [29],
+                      'City': ['Miami']})
+df = pd.concat([df, new_row], ignore_index=True)
+
 print("Original DataFrame:")
 print(df)
 
